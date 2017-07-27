@@ -1,22 +1,35 @@
-# 8th Grade p5.js
+## Two Sigma Workshop
 
-Code goes in <kbd>Code Examples</kbd>, lessons go in <kbd>_posts</kbd> or as Markdown files in the top level. 
+## Day 1
+**Learning Targets**
+- I can identify the structure of a p5 sketch.
+- I can define variables, conditionals, functions and loops in p5.
+- I can use incrementation to create animation in p5.
 
-**Lesson/Post Header**
-```html
----
-layout: "post"
-title: "Hello World"
-date: "2016-04-18 13:05"
----
-```
+**Big Ideas**
+- Algorithms
+- Conditionals
+- Variables
+- Loops
+- Functions
 
-**Page Header**
-```html
----
-layout: "page"
-title: "Crazy Framerate"
----
-```
+**Projects**
+- 🎏 Flag Design
+- 🖌️ Drawing App
 
-Site is built using [Jekyll](https://jekyllrb.com/).
+**Advanced Ideas**
+- sin/cos in p5
+- GUI
+- DOM
+
+**Day 2**
+
+**Learning Targets**
+- I can use p5 to build an application for my classroom.
+
+**Big Ideas**
+
+**Projects**
+- “Days” of making
+- Clone a SnapChat feature
+- BYOP (Bring your own project)
