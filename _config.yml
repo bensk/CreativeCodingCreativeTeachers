@@ -37,3 +37,5 @@ jekyll-archives:
     tag: "/tag/:name/"
     category: "/category/:name/"
 future: true
+include: ['_pages']
+pages: ./_pages
