@@ -1,32 +1,39 @@
-# Permalinks
-permalink:           pretty
-
-# Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
-paginate:            1
-baseurl:             ""
-
-# Assets
-#
-# We specify the directory for Jekyll so we can use @imports.
+---
+title: Creative Computing
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+permalink: pretty
+tagline: 
+url: http://bsk.education/SE8_p5js
+paginate: 1
+baseurl: "/SE8_p5js"
 sass:
-  sass_dir:          _sass
-  style:            :compressed
-
-# About/contact
+  sass_dir: _sass
+  style: :compressed
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
-
-# Custom vars
-version:             2.0.0
+  name: Ben Samuels-Kalow
+  url: http://bsk.education
+  email: bsk@ms224.org
+version: 2.0.0
 github:
-  repo:              https://github.com/poole/poole
-
-# Gems
+  repo: https://github.com/bensk
 gems:
-  - jekyll-paginate
-  - jekyll-gist
+- jemoji
+- jekyll-archives
+- jekyll-paginate
+jekyll-archives:
+  enabled: []
+  layout: archive
+  permalinks:
+    year: "/:year/"
+    month: "/:year/:month/"
+    day: "/:year/:month/:day/"
+    tag: "/tag/:name/"
+    category: "/category/:name/"
+future: true

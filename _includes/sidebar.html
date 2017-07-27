@@ -1,0 +1,51 @@
+<div class="sidebar">
+  <div class="container sidebar">
+    <div class="sidebar-about">
+      <h1>
+        <a href="{{ site.baseurl }}">
+          {{ site.title }}
+        </a>
+      </h1>
+      <p class="lead">{{ site.description }}</p>
+    </div>
+
+    <nav class="sidebar-nav">
+        <h3>
+            <a href="http://alpha.editor.p5js.org/"><span class="octicon octicon-terminal"></span> p5✱ Web Editor</a>
+        </h3>
+      <!-- <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a> -->
+
+<!-- <a href="https://p5js.org/reference/" target="_blank"><code>p5✱ Reference</code></a><br> -->
+<a href="http://bsk.education/SE8_p5js/Code_Examples/">p5✱ examples</a>
+      {% comment %}
+        The code below dynamically generates a sidebar nav of pages with
+        `layout: page` in the front-matter. See readme for usage.
+      {% endcomment %}
+
+      {% assign pages_list = site.pages %}
+      {% for node in pages_list %}
+        {% if node.title != null %}
+          {% if node.layout == "page" %}
+            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+<!-- Post nav -->
+<hr />
+<!-- <h2>Lessons</h2> -->
+{% for post in site.posts reversed %}
+    <!-- <p class="lead">{{ post.date | date: '%B %d, %Y' }}<br> -->
+
+     <h4> <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
+
+  {% endfor %}
+</p>
+<!--  -->
+      <!-- <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
+      <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
+      <span class="sidebar-nav-item">Currently v{{ site.version }}</span> -->
+    </nav>
+
+    <!-- <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p> -->
+  </div>
+</div>

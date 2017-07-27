@@ -1,17 +1,17 @@
 // Code
 //
-// Inline and block-level code snippets. Includes tweaks to syntax highlighted
+    // Inline and block-level code snippets. Includes tweaks to syntax highlighted
 // snippets from Pygments/Rouge and Gist embeds.
 
 code,
 pre {
-  font-family: $code-font-family;
+  font-family: "Operator Mono", Consolas, Menlo, Monaco, "Courier New", monospace;
 }
 
 code {
   padding: .25em .5em;
   font-size: 85%;
-  color: $code-color;
+  color: #bf616a;
   background-color: #f9f9f9;
   border-radius: 3px;
 }
@@ -39,7 +39,8 @@ pre code {
 
   pre {
     margin-bottom: 0;
-    overflow-x: auto;
+    // overflow-x: auto;
+    white-space: pre-wrap !important;
   }
 
   .lineno {
@@ -57,7 +58,7 @@ pre code {
 
 // Gist via GitHub Pages
 // .gist .gist-file {
-//   font-family: Menlo, Monaco, "Courier New", monospace !important;
+//   font-family: "Operator Mono", Consolas, Menlo, Monaco, "Courier New", monospace !important;
 // }
 // .gist .markdown-body {
 //   padding: 15px;
