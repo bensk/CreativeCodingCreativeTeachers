@@ -12,7 +12,7 @@ layout: post
 <!-- ✱ Draw an `ellipse()` inside of another ellipse.    
 ✱ Give each `ellipse()` a different color.      -->
 
-<div style="text-align: center"><a href="http://bsk.education/SE8_p5js/Code_Examples/Snowman/">☃</a></div>
+<div style="text-align: center"><a href="http://bsk.education/CreativeCodingCreativeTeachers/Code_Examples/Snowman/">☃</a></div>
 > _Do you wanna build a snowman?_    
 > _It doesn't have to be a snowman..._
 

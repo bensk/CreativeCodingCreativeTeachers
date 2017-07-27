@@ -9,10 +9,10 @@ collections:
     title: Uploads
     output: true
 permalink: pretty
-tagline: 
-url: http://bsk.education/SE8_p5js
+tagline:
+url: http://bsk.education/CreativeCodingCreativeTeachers
 paginate: 1
-baseurl: "/SE8_p5js"
+baseurl: "/CreativeCodingCreativeTeachers"
 sass:
   sass_dir: _sass
   style: :compressed

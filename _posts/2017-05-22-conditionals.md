@@ -17,7 +17,7 @@ if (mouseX > 100) {
 What happened? Why do you think that's happening?
 
 ## Conditionals
-Conditionals in p5 work exactly like JavaScript conditionals. Thanks to our [built-in variables](http://bsk.education/SE8_p5js/2017/05/18/interaction/), we can quickly make sketches that **change** depending on where our mouse is.
+Conditionals in p5 work exactly like JavaScript conditionals. Thanks to our [built-in variables](http://bsk.education/CreativeCodingCreativeTeachers/2017/05/18/interaction/), we can quickly make sketches that **change** depending on where our mouse is.
 
 
 ## I'm on one side...

@@ -12,6 +12,6 @@ date: "2017-05-12 10:36"
 - Don’t have **writing** you can’t **read**
 - Be **distinctive**, or be **related**
 
-[Like this...](http://bsk.education/SE8_p5js/Code_Examples/Mexico/)
+[Like this...](http://bsk.education/CreativeCodingCreativeTeachers/Code_Examples/Mexico/)
 
 but for you!
