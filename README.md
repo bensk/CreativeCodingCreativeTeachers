@@ -1,3 +1,8 @@
+---
+layout: page
+title: About
+---
+
 ## Two Sigma Workshop
 
 ## Day 1
