@@ -24,7 +24,7 @@ version: 2.0.0
 github:
   repo: https://github.com/bensk
 plugins:
-# - jemoji
+- jemoji
 - jekyll-archives
 # - jekyll-paginate
 jekyll-archives:
