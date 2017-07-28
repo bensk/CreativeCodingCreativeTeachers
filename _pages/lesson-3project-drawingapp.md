@@ -66,7 +66,6 @@ This is called _initializing_ a variable– giving it an _initial_ or starting v
 
 ## <span class="mega-octicon octicon-rocket"></span> Push yourself for a 4!
 
-🎂 Draw me a birthday card!     
 🌈 Let the user choose colors using the keyboard. For example, if they press `b`, they start drawing in <span style="color: blue; font-weight: bold">blue</span>.     
 ⌫ Let the user erase part of their drawing. There are a lot of ways to do this!     
 💃🏼 Have fun!     
