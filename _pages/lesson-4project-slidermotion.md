@@ -13,6 +13,7 @@ Very soon, we're going to build an interactive game in <span style="color: #ED1F
 
 Now, instead of *reversing* direction when something hits the edge, we're going to make something follow a path *around* the edges of the screen.
 
+<iframe src="{{ site.baseurl }}/Code_Examples/PathAlongEdges" width="100%" height="400px" style="border:solid 1px; border-color: #ED1F5E"></iframe>
 
 ## Pseudocode Practice Make Pseudoperfect
 
@@ -73,9 +74,7 @@ function draw() {
 }
 ```
 
-Now, add conditionals so that the robot (or emoji of your choice) follows a path around the screen, like this:
-
-<iframe src="{{ site.baseurl }}/Code_Examples/PathAlongEdges" width="100%" height="400px" style="border:solid 1px; border-color: #ED1F5E"></iframe>
+Now, add conditionals so that the robot (or emoji of your choice) follows a path around the screen.
 
 ## Checklist
 
