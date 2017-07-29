@@ -3,7 +3,6 @@ layout: page
 title: About
 ---
 
-## Two Sigma Workshop
 
 ## Day 1
 **Learning Targets**
@@ -27,7 +26,7 @@ title: About
 - GUI
 - DOM
 
-**Day 2**
+## Day 2
 
 **Learning Targets**
 - I can use p5 to build an application for my classroom.
