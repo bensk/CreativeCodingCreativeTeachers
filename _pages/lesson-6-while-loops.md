@@ -1,6 +1,6 @@
 ---
 layout: "page"
-title: "🔁 Loops"
+title: "🔁 while Loops"
 ---
 
 ## Do Now (in p5)
