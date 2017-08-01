@@ -4,6 +4,8 @@ title: About
 ---
 
 
+Join Google Classroom: `7txbf8`
+
 ## Day 1
 **Learning Targets**
 - I can identify the structure of a p5 sketch.
